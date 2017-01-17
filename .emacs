@@ -23,6 +23,12 @@
 (package-initialize)
 (setq url-http-attempt-keepalives nil)
 
+;;Setting envpaths
+;;This is Spacemacs related
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
+(setq exec-path (append exec-path '("/usr/local/bin")))
+
+
 
 ;; Not sure exactly what this does yet but I'll figure it out soon.
 (custom-set-variables
