@@ -12,7 +12,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Random Aliases
 alias ec='exercism'
 alias bu='brew upgrade'
-alias cdd='cd ~/Development
+alias cdd='cd ~/Development'
 alias sz='source ~/.zshrc'
 alias vzrc='vim ~/.zshrc'
 
